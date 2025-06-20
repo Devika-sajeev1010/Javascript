@@ -14,3 +14,4 @@ console.log(value)
 //  then conversion is possible in JS , but the actual value will be NaN - not a number
 // if the variable is assigned with null then the value will ne 0 and if 
 // it is undefined then the value will be NaN
+

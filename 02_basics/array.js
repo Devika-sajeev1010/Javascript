@@ -1,0 +1,16 @@
+const arr = [1,2,3,4 , "Aman"]
+const names = ["Aman" , "Raman" , "Raj"]
+//const myarr = new arr(1,2)
+console.log(arr[1])
+arr.push(7)
+arr.push(8)
+arr.pop()
+console.log(arr)
+console.log(arr.indexOf(4))
+console.log("A" , arr)
+const myn1 = arr.slice(1,3) //slice() – Non-destructive (Does NOT modify original array)
+console.log(myn1)
+console.log(arr)
+const myn2 = arr.splice(1,3) //splice() – Destructive (MODIFIES original array)
+console.log(myn2)
+console.log(arr)

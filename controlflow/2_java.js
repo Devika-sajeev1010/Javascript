@@ -19,4 +19,5 @@ for (const greet of greetings) {
 // for...of loop
 // Simpler syntax for looping over iterables (like arrays, strings, sets, maps).
 // You don’t get the index directly.
+
 // Used when you only care about the values, not their position.

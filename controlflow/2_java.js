@@ -21,3 +21,4 @@ for (const greet of greetings) {
 // You don’t get the index directly.
 
 // Used when you only care about the values, not their position.
+

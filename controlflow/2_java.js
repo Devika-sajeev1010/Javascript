@@ -22,3 +22,20 @@ for (const greet of greetings) {
 
 // Used when you only care about the values, not their position.
 
+//  What is Map in JavaScript?
+// A Map is a built-in object in JavaScript that lets you store key-value pairs, where:
+
+// Keys can be any data type (not just strings like in regular objects).
+
+// Insertion order is preserved.
+
+// It provides helpful methods for easy access, iteration, and manipulation.
+
+const mymap = new Map();
+mymap.set('name' , 'devika');
+mymap.set('id' ,100);
+mymap.set(1 , 'number key');
+mymap.set(true , 'Boolean');
+console.log(mymap.get('name'));
+console.log(mymap.has('id'));
+

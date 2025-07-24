@@ -39,3 +39,4 @@ mymap.set(true , 'Boolean');
 console.log(mymap.get('name'));
 console.log(mymap.has('id'));
 
+

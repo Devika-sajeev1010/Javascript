@@ -36,7 +36,10 @@ mymap.set('name' , 'devika');
 mymap.set('id' ,100);
 mymap.set(1 , 'number key');
 mymap.set(true , 'Boolean');
+
+
 console.log(mymap.get('name'));
 console.log(mymap.has('id'));
+
 
 

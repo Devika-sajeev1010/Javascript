@@ -42,4 +42,12 @@ console.log(mymap.get('name'));
 console.log(mymap.has('id'));
 
 
+// in array we use foreach loop to iterate
+const lang = ["C++", "java" , "javascript" , "Python"]
+lang.forEach(function (items)
+{
+    console.log(items);
+}
+)
+
 

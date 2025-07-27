@@ -43,11 +43,21 @@ console.log(mymap.has('id'));
 
 
 // in array we use foreach loop to iterate
-const lang = ["C++", "java" , "javascript" , "Python"]
-lang.forEach(function (items)
+// const lang = ["C++", "java" , "javascript" , "Python"]
+// lang.forEach(function (items)
+// {
+//     console.log(items);
+// }
+// )
+
+lang = ["C++", "java" , "javascript" , "Python"]
+const values = lang.forEach(function (items)
 {
-    console.log(items);
+    //console.log(items);
+    return items
 }
 )
+//console.log(values);  answer will be undefined
+// in foreach loop we cannot return the values, we can only iterate trhough the array
 
 

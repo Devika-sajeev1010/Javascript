@@ -59,5 +59,25 @@ const values = lang.forEach(function (items)
 )
 //console.log(values);  answer will be undefined
 // in foreach loop we cannot return the values, we can only iterate trhough the array
+// to return the values , we use filter
+
+// const newnums = [1,2,3,4,5,6];
+// const val =  newnums.filter( (nums) => nums > 4)
+// console.log(val); // [5,6]
+
+// now remember , whenever we start a scope we have to use the keyword return to t=return the values.
+// for ex
+
+// const newnums = [1,2,3,4,5,6];
+// const val =  newnums.filter( (nums) => {
+//     nums > 4})
+// console.log(val); // shows an empty array
+
+const newnums = [1,2,3,4,5,6];
+const val =  newnums.filter( (nums) => {
+    return nums > 4})
+console.log(val);
+
+
 
 

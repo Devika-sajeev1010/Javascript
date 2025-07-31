@@ -6,3 +6,5 @@ const value = mynumber
 .filter((num) => num >70);
 console.log(value);
 
+const myval = [1,2,3];
+

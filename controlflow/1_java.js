@@ -1,10 +1,10 @@
 //if
-if( 2 =="2") // it will print ececuted as it does not check the datatype
+if( 2 =="2") // it will print executed as it does not check the datatype
 {
     console.log("executed"); 
     
 }
-if( 2 === "2") // it will not  print ececuted as it does check the datatype (===)
+if( 2 === "2") // it will not  print executed as it does check the datatype (===)
 {
     console.log("executed"); 
     
